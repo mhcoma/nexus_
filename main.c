@@ -1,3 +1,4 @@
+       //              -std=c17                 -lm
             #        include          <math.h>
                 # define _USE_MATH_DEFINES
                     #include <stdio.h>
