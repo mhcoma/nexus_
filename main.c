@@ -1,12 +1,13 @@
-               #     include      <math.h>
-                 #   include   <stdio.h>
+            #        include          <math.h>
+                # define _USE_MATH_DEFINES
+                    #include <stdio.h>
                       #define  n  30
                 # define  e  (  n  *  2   )
             #   define   f   (   n   -   4    )
          #    define    s    (    e    *    2    )
        #     define    m    (    M_PI    /    3    )
       #  define  l (  )  printf  (  "\033[H\033[J"  )
-     #define g(x, y) printf ("\033[%zu;%zuf" , y , x )
+     #define g(x, y) printf  ("\033[%d;%df" , y , x )
      int main(void){fputs("\33[?25l",stdout);double r,
     a=m*2;int x,y,max=0;while(1){int buff[s][ e]={0, };
     if((a-=0.05)<0)a=m*2;for(int c=0;c<3;c ++ ) { for (
