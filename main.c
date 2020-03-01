@@ -1,8 +1,9 @@
-       //              -std=c17                 -lm
-            #        include          <math.h>
-                # define _USE_MATH_DEFINES
+
+       //          -std=gnu17 or c17            -lm
+            #     define     _USE_MATH_DEFINES
+                #    include      <math.h>
                     #include <stdio.h>
-                      #define  n  30
+                      #define  n  20
                 # define  e  (  n  *  2   )
             #   define   f   (   n   -   4    )
          #    define    s    (    e    *    2    )
